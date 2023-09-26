@@ -18,14 +18,16 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  width: 600px; 
 }
 
 article {
@@ -33,13 +35,40 @@ article {
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
+}
+
+.group {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.image-container {
+  align-self: center;
+  padding-left: 25px;
+}
+
+.container {
+  align-self: center;
+  justify-content: center;
+}
+
+.portfolio {
+  align-items: flex-start;
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.item > p {
+  text-align: center;
 }
 
 /* Links */
