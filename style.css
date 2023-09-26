@@ -58,10 +58,6 @@ article div {
   justify-content: center;
 }
 
-.portfolio {
-  align-items: flex-start;
-}
-
 /* Paragraphs */
 p {
   line-height: 1.5;
